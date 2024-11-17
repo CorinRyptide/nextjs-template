@@ -1,0 +1,12 @@
+.card {
+    min-height: 250px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+}
