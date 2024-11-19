@@ -2,23 +2,22 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Install VSCode, Git, and Node.js on your computer.
+    - Optionally, install GitHub Desktop for an easier experience.
+    - Depending on your computer, you may have to configure the PATH Environment Variable to support Node.js and Git
+3. Click 'Fork' near the top of the repository display.
+4. Click 'Create Fork' and navigate to the repository in your profile.
+5. Click the green 'Code' button and copy the HTTPS URL.
+6. Clone the repository with either GitHub Desktop or the command: `git clone <URL>` in your desired folder.
+  - This might error you if your PATH Environment Variable isn't configured, there's lots of documentation of this fix online, though.
+8. Open the folder in VSCode and open VSCode's terminal.
+9. Run `npm install` to install all of the packages needed to support the project.
+  - Also a PATH moment
+10. Run `npm run dev` to start the development environment for the app.
+11. Navigate to [localhost:3000](localhost:3000) in your web browser of choice.
+12. Look around the website, and mess with the code while you're at it.
+13. If you want to save your changes, you can push them back to your GitHub which I challenge you to do alone.
+14. Have fun!
 
 ## Learn More
 
@@ -26,11 +25,3 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
